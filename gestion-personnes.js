@@ -62,7 +62,7 @@ function ajouter_ligne() {
     btn_suppr_a_generer.addEventListener('click', SupprimerValeur)
 
     function SupprimerValeur(){
-       let suppr = document.getElementById("table-body")
+       let suppr = tr_a_generer;
 
        suppr.innerHTML="";
 
