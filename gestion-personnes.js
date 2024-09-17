@@ -56,6 +56,19 @@ function ajouter_ligne() {
     document.getElementById("id-nom").value = "";
     document.getElementById("id-prenom").value = "";
     document.getElementById("id-mail").value = "";
+
+
+    //Delete
+    btn_suppr_a_generer.addEventListener('click', SupprimerValeur)
+
+    function SupprimerValeur(){
+       let suppr = document.getElementById("table-body")
+
+       suppr.innerHTML="";
+
+    }
+
+
 }
 
 //function clickModif(e) {
@@ -80,4 +93,11 @@ window.addEventListener('load', (event) => {
         ajouter_ligne();
     }, false);
 });
+
+
+
+
+
+
+
 
