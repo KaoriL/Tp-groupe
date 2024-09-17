@@ -58,7 +58,7 @@ function ajouter_ligne() {
     document.getElementById("id-mail").value = "";
 
 
-    //Delete
+    //Supprimer une ligne
     btn_suppr_a_generer.addEventListener('click', SupprimerValeur)
 
     function SupprimerValeur(){
